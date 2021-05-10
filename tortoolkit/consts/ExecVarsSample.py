@@ -3,19 +3,19 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
-        BASE_URL_OF_BOT = ""
+        API_HASH = "c1c1a85c23643876d4ae5c76b20e821f"
+        API_ID = 2448614
+        BOT_TOKEN = "1751670754:AAGLBPQlEmDDQcz7KiHVWHS_qjVo_xOgQn4"
+        BASE_URL_OF_BOT = "http://t.me/viptortoolkitbot"
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
         ALD_USR = []
-        OWNER_ID = 0
+        OWNER_ID = 1537043123
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -36,7 +36,7 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DB_URI = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DB_URI = "postgres://xbzcigkjkvqtbz:214d1444a43f6b98fdfcbe94139a9b711eb603c6cff02a726d4c395b8b8e3f81@ec2-54-87-112-29.compute-1.amazonaws.com:5432/dc914pru7vgdr3"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DB_URI = "dbname=tortk user=postgres password=your-pass host=db port=5432"
